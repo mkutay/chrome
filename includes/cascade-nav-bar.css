@@ -1,3 +1,7 @@
+#navigator-toolbox:not(:-moz-lwtheme) { background: var(--toolbar-field-background-color) !important; ) }
+
+
+
 #nav-bar {
 
   padding-block-start: 0px !important;
@@ -22,7 +26,6 @@
 
 #urlbar-background { border: transparent !important; }
 
-
 #urlbar[focused='true']
   > #urlbar-background,
 #urlbar:not([open])
@@ -37,3 +40,8 @@
   > .urlbarView-row-inner,
 .urlbarView-row[selected]
   > .urlbarView-row-inner { background: var(--toolbar-field-focus-background-color) !important; }
+
+
+.urlbar-icon, #urlbar-go-button { margin: auto; }
+
+.urlbar-page-action { padding: 0 inherit !important; }
